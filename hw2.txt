@@ -1,0 +1,6 @@
+A bare repository is a repository that only contains the information of your versions of your working files, but not the working files themselves. The repo on github or any server that host your remote repo service is a bare repo. 
+git pull is doing git fetch and git merge automatically. When you want to review the changes before merging the remote changes, you can do it separately and manually. 
+You can keep fetching the remote, and keep the remote tracking branch always updated. A tracking branch means there is a connection between your local branch and the corresponding remote branch. Whenever you push or pull,  git will know which branch to update. 
+
+To push to remote
+git push remotename branchname
